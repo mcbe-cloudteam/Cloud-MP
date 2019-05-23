@@ -81,48 +81,48 @@ class BlockFactory{
 		self::registerBlock(new HardStainedGlass(254, 0, "Hard Stained Glass"));
 		self::registerBlock(new HardStainedGlassPane(191, 0, "Hard Stained Glass Pane"));
 
-		self::registerBlock(new NewBlock(266, 0, "Blue Ice"));
-		self::registerBlock(new NewBlock(267, 0, "H"));
-
-		self::registerBlock(new Kelp());
-		self::registerBlock(new NewBlock(392, 0, "CORAL_FAN_HANG3"));
-		self::registerBlock(new NewBlock(391, 0, "CORAL_FAN_HANG2"));
-		self::registerBlock(new NewBlock(390, 0, "CORAL_FAN_HANG1"));
-		self::registerBlock(new NewBlock(389, 0, "CORAL_FAN_HANG"));
-		self::registerBlock(new NewBlock(388, 0, "CORAL_FAN"));
-		self::registerBlock(new NewBlock(387, 0, "CORAL_BLOCK"));
-		self::registerBlock(new NewBlock(386, 0, "CORAL"));
-		self::registerBlock(new NewBlock(385, 0, "SEAGRASS"));
-		self::registerBlock(new NewBlock(411, 0, "SEA_PICKLE"));
-		self::registerBlock(new NewBlock(412, 0, "CONDUIT"));
-		self::registerBlock(new NewBlock(413, 0, "TURTLE_EGG"));
-		self::registerBlock(new NewBlock(418, 0, "BAMBOO"));
-		self::registerBlock(new NewBlock(419, 0, "BAMBOO_SAPLING"));
-		self::registerBlock(new NewBlock(420, 0, "SCAFFOLDING"));
-
-				self::registerBlock(new NewBlock(461, 0, "BELL_BLOCK"));
-						self::registerBlock(new NewBlock(464, 0, "CAMPFIRE_BLOCK"));
-										self::registerBlock(new NewBlock(455, 0, "CARTOGRAPHY_TABLE_BLOCK"));
-										self::registerBlock(new NewBlock(456, 0, "FLETCHING_TABLE_BLOCK"));
-										self::registerBlock(new NewBlock(457, 0, "SMITHING_TABLE_BLOCK"));
-										self::registerBlock(new NewBlock(451, 0, "BLAST_FURNACE_BLOCK"));
-										//self::registerBlock(new NewBlock(452, 0, "STONECUTTER_BLOCK"));
-										self::registerBlock(new NewBlock(453, 0, "SMOKER_BLOCK"));
-										self::registerBlock(new NewBlock(450, 0, "GRINDSTONE_BLOCK"));
-										self::registerBlock(new NewBlock(462, 0, "SWEET_BERRY_BUSH"));
-
-
-		self::registerBlock(new Barrel()); /* 458 */
-		self::registerBlock(new Loom()); /* 459 */
-
+		/* -단위 아이템 추가 */
 		self::registerBlock(new NewBlock(260, 0, "Stripped Spruce Log"));
 		self::registerBlock(new NewBlock(261, 0, "Stripped Birch Log"));
 		self::registerBlock(new NewBlock(262, 0, "Stripped Jungle Log"));
 		self::registerBlock(new NewBlock(263, 0, "Stripped Acaica Log"));
 		self::registerBlock(new NewBlock(264, 0, "Stripped Dark Oak Log"));
 		self::registerBlock(new NewBlock(265, 0, "Stripped Oak Log"));
+		self::registerBlock(new NewBlock(266, 0, "Blue Ice"));
+		self::registerBlock(new NewBlock(267, 0, "H"));
 
+		self::registerBlock(new NewBlock(385, 0, "Seagrass"));
+		self::registerBlock(new NewBlock(386, 0, "Coral"));
+		self::registerBlock(new NewBlock(387, 0, "Coral Block"));
+		self::registerBlock(new NewBlock(388, 0, "Coral Fan"));
+		self::registerBlock(new NewBlock(389, 0, "Coral Fan Hang"));
+		self::registerBlock(new NewBlock(390, 0, "Coral Fan Hang 1"));
+		self::registerBlock(new NewBlock(391, 0, "Coral Fan Hang 2"));
+		self::registerBlock(new NewBlock(392, 0, "Coral Fan Hong 3"));
+		self::registerBlock(new Kelp()); /* 393 */
 
+		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
+		self::registerBlock(new NewBlock(412, 0, "Conduit"));
+		self::registerBlock(new NewBlock(413, 0, "Turtle Egg"));
+
+		self::registerBlock(new NewBlock(418, 0, "Bamboo"));
+		self::registerBlock(new NewBlock(419, 0, "Bamboo Sapling"));
+		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
+
+		self::registerBlock(new NewBlock(450, 0, "Grindstone"));
+		self::registerBlock(new NewBlock(451, 0, "Blast Furnace"));
+		//self::registerBlock(new NewBlock(452, 0, "Stonecutter"));
+		self::registerBlock(new NewBlock(453, 0, "Smoker"));
+
+		self::registerBlock(new NewBlock(455, 0, "Cartography Table"));
+		self::registerBlock(new NewBlock(456, 0, "Fletching Table"));
+		self::registerBlock(new NewBlock(457, 0, "Smithing Table"));
+		self::registerBlock(new Barrel()); /* 458 */
+		self::registerBlock(new Loom()); /* 459 */
+
+		self::registerBlock(new NewBlock(461, 0, "Bell"));
+		self::registerBlock(new NewBlock(462, 0, "Sweet Berry Bush"));
+		self::registerBlock(new NewBlock(464, 0, "Campfire"));
 		/* 새로운 블럭 추가 */
 
 		self::registerBlock(new Air());
