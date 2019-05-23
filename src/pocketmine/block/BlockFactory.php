@@ -82,6 +82,9 @@ class BlockFactory{
 		self::registerBlock(new HardStainedGlassPane(191, 0, "Hard Stained Glass Pane"));
 
 		/* -단위 아이템 추가 */
+		/* self::registerBlock(new PrismarineStairs()); */ /* 257 */
+		/* self::registerBlock(new DarkPrismarineStairs()); */ /* 258 */
+		/* self::registerBlock(new PrismarineBricksStairs()); */ /* 259 */
 		self::registerBlock(new NewBlock(260, 0, "Stripped Spruce Log"));
 		self::registerBlock(new NewBlock(261, 0, "Stripped Birch Log"));
 		self::registerBlock(new NewBlock(262, 0, "Stripped Jungle Log"));
