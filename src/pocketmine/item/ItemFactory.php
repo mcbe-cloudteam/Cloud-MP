@@ -132,7 +132,23 @@ class ItemFactory{
 		ItemFactory::registerItem(new ItemBlock(392, 0, -137), true);
 		ItemFactory::registerItem(new ItemBlock(393, 0, -138), true);
 		ItemFactory::registerItem(new ItemBlock(393, 0, 335), true);
-
+		
+		ItemFactory::registerItem(new ItemBlock(395, 0, -140), true);
+		ItemFactory::registerItem(new ItemBlock(396, 0, -141), true);
+		ItemFactory::registerItem(new ItemBlock(397, 0, -142), true);
+		ItemFactory::registerItem(new ItemBlock(398, 0, -143), true);
+		ItemFactory::registerItem(new ItemBlock(399, 0, -144), true);
+		ItemFactory::registerItem(new ItemBlock(400, 0, -145), true);
+		ItemFactory::registerItem(new ItemBlock(401, 0, -146), true);
+		ItemFactory::registerItem(new ItemBlock(402, 0, -147), true);
+		ItemFactory::registerItem(new ItemBlock(403, 0, -148), true);
+		ItemFactory::registerItem(new ItemBlock(404, 0, -149), true);
+		ItemFactory::registerItem(new ItemBlock(405, 0, -150), true);
+		ItemFactory::registerItem(new ItemBlock(406, 0, -151), true);
+		ItemFactory::registerItem(new ItemBlock(407, 0, -152), true);
+		ItemFactory::registerItem(new ItemBlock(408, 0, -153), true);
+		ItemFactory::registerItem(new ItemBlock(409, 0, -154), true);
+		ItemFactory::registerItem(new ItemBlock(410, 0, -155), true);
 		ItemFactory::registerItem(new ItemBlock(411, 0, -156), true);
 		ItemFactory::registerItem(new ItemBlock(412, 0, -157), true);
 		ItemFactory::registerItem(new ItemBlock(413, 0, -158), true);
