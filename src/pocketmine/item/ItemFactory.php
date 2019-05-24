@@ -153,9 +153,11 @@ class ItemFactory{
 		ItemFactory::registerItem(new ItemBlock(412, 0, -157), true);
 		ItemFactory::registerItem(new ItemBlock(413, 0, -158), true);
 
+		ItemFactory::registerItem(new ItemBlock(417, 0, -162), true);
 		ItemFactory::registerItem(new ItemBlock(418, 0, -163), true);
 		ItemFactory::registerItem(new ItemBlock(419, 0, -164), true);
 		ItemFactory::registerItem(new ItemBlock(420, 0, -165), true);
+		ItemFactory::registerItem(new ItemBlock(421, 0, -166), true);
 
 		ItemFactory::registerItem(new ItemBlock(449, 0, -194), true);
 		ItemFactory::registerItem(new ItemBlock(450, 0, -195), true);
