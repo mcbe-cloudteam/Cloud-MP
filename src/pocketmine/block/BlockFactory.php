@@ -119,6 +119,7 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(418, 0, "Bamboo"));
 		self::registerBlock(new NewBlock(419, 0, "Bamboo Sapling"));
 		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
+		self::registerBlock(new NewBlock(421, 0, "Stone Slab 4"));
 		
 		/* self::registerBlock(new SpruceStandingSign()); 436 */
 		/* self::registerBlock(new SpruceWellSign()); 437 */
