@@ -91,7 +91,7 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(263, 0, "Stripped Acaica Log"));
 		self::registerBlock(new NewBlock(264, 0, "Stripped Dark Oak Log"));
 		self::registerBlock(new NewBlock(265, 0, "Stripped Oak Log"));
-		self::registerBlock(new NewBlock(266, 0, "Blue Ice"));
+		self::registerBlock(new BlueIce()); /* 266 */
 		self::registerBlock(new NewBlock(267, 0, "H"));
 
 		self::registerBlock(new NewBlock(385, 0, "Seagrass"));
@@ -107,10 +107,24 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
 		self::registerBlock(new NewBlock(412, 0, "Conduit"));
 		self::registerBlock(new NewBlock(413, 0, "Turtle Egg"));
-
+		
+		self::registerBlock(new Barrier()); /* 416 */
+		
 		self::registerBlock(new NewBlock(418, 0, "Bamboo"));
 		self::registerBlock(new NewBlock(419, 0, "Bamboo Sapling"));
 		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
+		
+		/* self::registerBlock(new SpruceStandingSign()); 436 */
+		/* self::registerBlock(new SpruceWellSign()); 437 */
+
+		/* self::registerBlock(new BirchStandingSign()); 441 */
+		/* self::registerBlock(new BirchWellSign()); 442 */
+		/* self::registerBlock(new JungleStandingSign()); 443 */
+		/* self::registerBlock(new JungleWellSign()); 444 */
+		/* self::registerBlock(new AcaciaStandingSign()); 445 */
+		/* self::registerBlock(new AcaciaWellSign()); 446 */
+		/* self::registerBlock(new DarkOakStandingSign()); 447 */
+		/* self::registerBlock(new DarkOakWellSign()); 448 */
 
 		self::registerBlock(new NewBlock(450, 0, "Grindstone"));
 		self::registerBlock(new NewBlock(451, 0, "Blast Furnace"));
@@ -126,6 +140,9 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(461, 0, "Bell"));
 		self::registerBlock(new NewBlock(462, 0, "Sweet Berry Bush"));
 		self::registerBlock(new NewBlock(464, 0, "Campfire"));
+		
+		self::registerBlock(new Wood3()); /* 467 */
+		self::registerBlock(new Composter()); /* 468 */
 		/* 새로운 블럭 추가 */
 
 		self::registerBlock(new Air());
