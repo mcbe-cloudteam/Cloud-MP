@@ -122,16 +122,16 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(421, 0, "Stone Slab 4"));
 		
 		self::registerBlock(new SpruceStandingSign()); /* 436 */
-		self::registerBlock(new SpruceWellSign()); /* 437 */
+		self::registerBlock(new SpruceWallSign()); /* 437 */
 
 		self::registerBlock(new BirchStandingSign()); /* 441 */
-		self::registerBlock(new BirchWellSign()); /* 442 */
+		self::registerBlock(new BirchWallSign()); /* 442 */
 		self::registerBlock(new JungleStandingSign()); /* 443 */
-		self::registerBlock(new JungleWellSign()); /* 444 */
+		self::registerBlock(new JungleWallSign()); /* 444 */
 		self::registerBlock(new AcaciaStandingSign()); /* 445 */
-		self::registerBlock(new AcaciaWellSign()); /* 446 */
+		self::registerBlock(new AcaciaWallSign()); /* 446 */
 		self::registerBlock(new DarkOakStandingSign()); /* 447 */
-		self::registerBlock(new DarkOakWellSign()); /* 448 */
+		self::registerBlock(new DarkOakWallSign()); /* 448 */
 
 		self::registerBlock(new NewBlock(450, 0, "Grindstone"));
 		self::registerBlock(new NewBlock(451, 0, "Blast Furnace"));
