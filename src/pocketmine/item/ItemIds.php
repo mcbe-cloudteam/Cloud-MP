@@ -28,7 +28,7 @@ use pocketmine\block\BlockIds;
 interface ItemIds extends BlockIds{
 
 	public const COMPOSTER_I = -213;
-	public const WOOD3_I = -212;
+	public const WOOD_2_I = -212;
 	public const JIGSAW_I = -211;
 	public const LAVA_CAULDRON_I = -210;
 	public const CAMPFIRE_I = -209;
@@ -455,7 +455,7 @@ interface ItemIds extends BlockIds{
 	public const BIRCH_SIGN = 473;
 	public const JUNGLE_SIGN = 474;
 	public const ACACIA_SIGN = 475;
-	public const DARKOAK_SIGN = 476;
+	public const DARK_OAK_SIGN = 476;
 	public const SWEET_BERRIES = 477;
 	public const COMPOUND = 499;
 	public const RECORD_13 = 500;
