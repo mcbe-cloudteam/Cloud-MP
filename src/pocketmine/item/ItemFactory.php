@@ -285,9 +285,6 @@ class ItemFactory{
 	ItemFactory::registerItem(new Item(-129, 0, ''), true);
 
 	/* ELement End */
-
-		self::registerItem(new Shield()); /* 513 */
-
 		/*새로운 아이템 추가 작업 */
 
 		self::registerItem(new Shovel(Item::IRON_SHOVEL, 0, "Iron Shovel", TieredTool::TIER_IRON));
