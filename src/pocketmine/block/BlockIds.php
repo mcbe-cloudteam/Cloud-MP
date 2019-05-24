@@ -465,8 +465,8 @@ interface BlockIds{
 	public const JUNGLE_WALL_SIGN = 444;
 	public const ACACIA_STANDING_SIGN = 445;
 	public const ACACIA_WALL_SIGN = 446;
-	public const DARKOAK_STANDING_SIGN = 447;
-	public const DARKOAK_WALL_SIGN = 448;
+	public const DARK_OAK_STANDING_SIGN = 447;
+	public const DARK_OAK_WALL_SIGN = 448;
 	public const LECTERN_BLOCK = 449;
 	public const GRINDSTONE_BLOCK = 450;
 	public const BLAST_FURNACE_BLOCK = 451;
