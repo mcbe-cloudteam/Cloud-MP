@@ -106,13 +106,16 @@ class BlockFactory{
 		
 		self::registerBlock(new AcaciaButton()); /* 395 */
 		self::registerBlock(new BirchButton()); /* 396 */
+		self::registerBlock(new DarkOakButton()); /* 397 */
+		self::registerBlock(new JungleButton()); /* 398 */
+		self::registerBlock(new SpruceButton()); /* 399 */
 
 		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
 		self::registerBlock(new NewBlock(412, 0, "Conduit"));
 		self::registerBlock(new NewBlock(413, 0, "Turtle Egg"));
 		
 		self::registerBlock(new Barrier()); /* 416 */
-		
+		self::registerBlock(new NewBlock(417, 0, "Stone Slab 3"));
 		self::registerBlock(new NewBlock(418, 0, "Bamboo"));
 		self::registerBlock(new NewBlock(419, 0, "Bamboo Sapling"));
 		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
