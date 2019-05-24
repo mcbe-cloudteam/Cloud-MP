@@ -32,7 +32,7 @@ class SpruceSign extends Item{
 	}
 
 	public function getBlock() : Block{
-		return BlockFactory::get(Block::SIGN_POST);
+		return BlockFactory::get(Block::SPRUCE_STANDING_SIGN);
 	}
 
 	public function getMaxStackSize() : int{
