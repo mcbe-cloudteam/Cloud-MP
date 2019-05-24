@@ -103,6 +103,9 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(391, 0, "Coral Fan Hang 2"));
 		self::registerBlock(new NewBlock(392, 0, "Coral Fan Hong 3"));
 		self::registerBlock(new Kelp()); /* 393 */
+		
+		self::registerBlock(new AcaciaButton()); /* 395 */
+		self::registerBlock(new BirchButton()); /* 396 */
 
 		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
 		self::registerBlock(new NewBlock(412, 0, "Conduit"));
