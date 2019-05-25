@@ -109,6 +109,12 @@ class BlockFactory{
 		self::registerBlock(new DarkOakButton()); /* 397 */
 		self::registerBlock(new JungleButton()); /* 398 */
 		self::registerBlock(new SpruceButton()); /* 399 */
+		
+		self::registerBlock(new AcaciaPressurePlate()); /* 405 */
+		self::registerBlock(new BirchPressurePlate()); /* 406 */
+		self::registerBlock(new DarkOakPressurePlate()); /* 407 */
+		self::registerBlock(new JunglePressurePlate()); /* 408 */
+		self::registerBlock(new SprucePressurePlate()); /* 409 */
 
 		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
 		self::registerBlock(new NewBlock(412, 0, "Conduit"));
@@ -121,9 +127,25 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
 		self::registerBlock(new NewBlock(421, 0, "Stone Slab 4"));
 		
+		self::registerBlock(new NewBlock(422, 0, "Double Stone Slab 3"));
+		self::registerBlock(new NewBlock(423, 0, "Double Stone Salb 4"));
+		self::registerBlock(new NewBlock(424, 0, "Granite Stairs"));
+		self::registerBlock(new NewBlock(425, 0, "Diorite Stairs"));
+		self::registerBlock(new NewBlock(426, 0, "Andesite Stairs"));
+		self::registerBlock(new NewBlock(427, 0, "Polished Granite Stairs"));
+		self::registerBlock(new NewBlock(428, 0, "Polished Diorite Stairs"));
+		self::registerBlock(new NewBlock(429, 0, "Polished Andesite Stairs"));
+		self::registerBlock(new NewBlock(430, 0, "Mossy Stone Brick Stairs"));
+		self::registerBlock(new NewBlock(431, 0, "Smooth Red SandStone Stairs"));
+		self::registerBlock(new NewBlock(432, 0, "Smooth SandStone Stairs"));
+		self::registerBlock(new NewBlock(433, 0, "End Brick Stairs"));
+		self::registerBlock(new NewBlock(434, 0, "Mossy CobbleStone Stairs"));
+		self::registerBlock(new NewBlock(435, 0, "Normal Stone Stairs"));
 		self::registerBlock(new SpruceStandingSign()); /* 436 */
 		self::registerBlock(new SpruceWallSign()); /* 437 */
-
+		self::registerBlock(new NewBlock(438, 0, "Smooth Stone"));
+		self::registerBlock(new NewBlock(439, 0, "Red Nether Brick Stairs"));
+		self::registerBlock(new NewBlock(440, 0, "Smooth Quartz Stairs"));
 		self::registerBlock(new BirchStandingSign()); /* 441 */
 		self::registerBlock(new BirchWallSign()); /* 442 */
 		self::registerBlock(new JungleStandingSign()); /* 443 */
@@ -150,6 +172,7 @@ class BlockFactory{
 		
 		self::registerBlock(new Wood3()); /* 467 */
 		self::registerBlock(new Composter()); /* 468 */
+		self::registerBlock(new NewBlock(469, 0, "Lit Blast Furnace"));
 		/* 새로운 블럭 추가 */
 
 		self::registerBlock(new Air());

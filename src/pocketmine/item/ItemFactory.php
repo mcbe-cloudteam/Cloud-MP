@@ -152,13 +152,31 @@ class ItemFactory{
 		ItemFactory::registerItem(new ItemBlock(411, 0, -156), true);
 		ItemFactory::registerItem(new ItemBlock(412, 0, -157), true);
 		ItemFactory::registerItem(new ItemBlock(413, 0, -158), true);
-
+		
 		ItemFactory::registerItem(new ItemBlock(417, 0, -162), true);
 		ItemFactory::registerItem(new ItemBlock(418, 0, -163), true);
 		ItemFactory::registerItem(new ItemBlock(419, 0, -164), true);
 		ItemFactory::registerItem(new ItemBlock(420, 0, -165), true);
 		ItemFactory::registerItem(new ItemBlock(421, 0, -166), true);
-
+		ItemFactory::registerItem(new ItemBlock(422, 0, -167), true);
+		ItemFactory::registerItem(new ItemBlock(423, 0, -168), true);
+		ItemFactory::registerItem(new ItemBlock(424, 0, -169), true);
+		ItemFactory::registerItem(new ItemBlock(425, 0, -170), true);
+		ItemFactory::registerItem(new ItemBlock(426, 0, -171), true);
+		ItemFactory::registerItem(new ItemBlock(427, 0, -172), true);
+		ItemFactory::registerItem(new ItemBlock(428, 0, -173), true);
+		ItemFactory::registerItem(new ItemBlock(429, 0, -174), true);
+		ItemFactory::registerItem(new ItemBlock(430, 0, -175), true);
+		ItemFactory::registerItem(new ItemBlock(431, 0, -176), true);
+		ItemFactory::registerItem(new ItemBlock(432, 0, -177), true);
+		ItemFactory::registerItem(new ItemBlock(433, 0, -178), true);
+		ItemFactory::registerItem(new ItemBlock(434, 0, -179), true);
+		ItemFactory::registerItem(new ItemBlock(435, 0, -180), true);
+		
+		ItemFactory::registerItem(new ItemBlock(438, 0, -183), true);
+		ItemFactory::registerItem(new ItemBlock(439, 0, -184), true);
+		ItemFactory::registerItem(new ItemBlock(440, 0, -185), true);
+		
 		ItemFactory::registerItem(new ItemBlock(449, 0, -194), true);
 		ItemFactory::registerItem(new ItemBlock(450, 0, -195), true);
 		ItemFactory::registerItem(new ItemBlock(451, 0, -196), true);
@@ -180,6 +198,7 @@ class ItemFactory{
 
 		ItemFactory::registerItem(new ItemBlock(467, 0, -212), true);
 		ItemFactory::registerItem(new ItemBlock(468, 0, -213), true);
+		ItemFactory::registerItem(new ItemBlock(469, 0, -214), true);
 		/* -단위 블럭 설치 가능 */
 
 	/* Element */
