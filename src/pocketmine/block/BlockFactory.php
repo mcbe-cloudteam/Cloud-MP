@@ -121,31 +121,30 @@ class BlockFactory{
 		self::registerBlock(new NewBlock(413, 0, "Turtle Egg"));
 		
 		self::registerBlock(new Barrier()); /* 416 */
-		self::registerBlock(new NewBlock(417, 0, "Stone Slab 3"));
+		self::registerBlock(new StoneSlab3()); /* 417 - 0~15 */
 		self::registerBlock(new NewBlock(418, 0, "Bamboo"));
 		self::registerBlock(new NewBlock(419, 0, "Bamboo Sapling"));
 		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
-		self::registerBlock(new NewBlock(421, 0, "Stone Slab 4"));
-		
-		self::registerBlock(new NewBlock(422, 0, "Double Stone Slab 3"));
-		self::registerBlock(new NewBlock(423, 0, "Double Stone Salb 4"));
-		self::registerBlock(new NewBlock(424, 0, "Granite Stairs"));
-		self::registerBlock(new NewBlock(425, 0, "Diorite Stairs"));
-		self::registerBlock(new NewBlock(426, 0, "Andesite Stairs"));
-		self::registerBlock(new NewBlock(427, 0, "Polished Granite Stairs"));
-		self::registerBlock(new NewBlock(428, 0, "Polished Diorite Stairs"));
-		self::registerBlock(new NewBlock(429, 0, "Polished Andesite Stairs"));
-		self::registerBlock(new NewBlock(430, 0, "Mossy Stone Brick Stairs"));
-		self::registerBlock(new NewBlock(431, 0, "Smooth Red SandStone Stairs"));
-		self::registerBlock(new NewBlock(432, 0, "Smooth SandStone Stairs"));
-		self::registerBlock(new NewBlock(433, 0, "End Brick Stairs"));
-		self::registerBlock(new NewBlock(434, 0, "Mossy CobbleStone Stairs"));
-		self::registerBlock(new NewBlock(435, 0, "Normal Stone Stairs"));
+		self::registerBlock(new StoneSlab4()); /* 421 - 0~15 */
+		self::registerBlock(new DoubleStoneSlab3()); /* 422 - 0~15 */
+		self::registerBlock(new DoubleStoneSlab4()); /* 423 - 0~15 */
+		self::registerBlock(new NewBlock(424, 0, "Granite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(425, 0, "Diorite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(426, 0, "Andesite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(427, 0, "Polished Granite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(428, 0, "Polished Diorite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(429, 0, "Polished Andesite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(430, 0, "Mossy Stone Brick Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(431, 0, "Smooth Red SandStone Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(432, 0, "Smooth SandStone Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(433, 0, "End Brick Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(434, 0, "Mossy CobbleStone Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(435, 0, "Normal Stone Stairs")); /* 0~7 */
 		self::registerBlock(new SpruceStandingSign()); /* 436 */
 		self::registerBlock(new SpruceWallSign()); /* 437 */
 		self::registerBlock(new NewBlock(438, 0, "Smooth Stone"));
-		self::registerBlock(new NewBlock(439, 0, "Red Nether Brick Stairs"));
-		self::registerBlock(new NewBlock(440, 0, "Smooth Quartz Stairs"));
+		self::registerBlock(new NewBlock(439, 0, "Red Nether Brick Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(440, 0, "Smooth Quartz Stairs")); /* 0~7 */
 		self::registerBlock(new BirchStandingSign()); /* 441 */
 		self::registerBlock(new BirchWallSign()); /* 442 */
 		self::registerBlock(new JungleStandingSign()); /* 443 */
