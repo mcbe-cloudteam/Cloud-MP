@@ -20,6 +20,6 @@ class Trident extends Tool{
 	}
 	
 	public function getMaxStackSize() : int{
-		return 64;
+		return 1;
 	}
 }
