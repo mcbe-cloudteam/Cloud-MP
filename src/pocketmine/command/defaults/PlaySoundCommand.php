@@ -28,7 +28,8 @@ class PlaySoundCommand extends VanillaCommand {
 		parent::__construct(
 			$name,
 			"Plays a sound",
-			"/playsound <sound> <player> [x] [y] [z] [volume] [pitch]"
+			"/playsound <sound> <player> [x] [y] [z] [volume] [pitch]",
+			["ps"]
 		);
 		$this->setPermission("pocketmine.command.playsound");
 	}
