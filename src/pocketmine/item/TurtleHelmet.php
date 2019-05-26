@@ -37,7 +37,7 @@ class TurtleHelmet extends Armor{
     }
 
     public function getMaxDurability() : int{
-        return 200;
+        return 276;
     }
 
     public function getEnchantability() : int{

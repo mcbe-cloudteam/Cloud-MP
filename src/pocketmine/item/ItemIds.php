@@ -435,6 +435,7 @@ interface ItemIds extends BlockIds{
 	public const BLEACH = 451;
 	public const IRON_NUGGET = 452;
 	public const ICE_BOMB = 453;
+	
 	public const TRIDENT = 455;
 	public const BEETROOT = 457;
 	public const BEETROOT_SEEDS = 458;
