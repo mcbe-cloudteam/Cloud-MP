@@ -22,7 +22,7 @@
 namespace pocketmine;
 
 const NAME = "MysTic";
-const BASE_VERSION = "3.8.4";
+const BASE_VERSION = "3.8.5";
 const IS_DEVELOPMENT_BUILD = false;
-const BUILD_NUMBER = 22;
-const MP_VERSION = "1.0.5";
+const BUILD_NUMBER = 30;
+const MP_VERSION = "1.0.7";
