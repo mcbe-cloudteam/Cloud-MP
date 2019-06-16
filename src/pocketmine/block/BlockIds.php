@@ -61,7 +61,7 @@ interface BlockIds{
 	public const PISTON = 33;
 	public const PISTONARMCOLLISION = 34, PISTON_ARM_COLLISION = 34;
 	public const WOOL = 35;
-
+	public const UNKNOW_ELEMENT = 36;
 	public const DANDELION = 37, YELLOW_FLOWER = 37;
 	public const POPPY = 38, RED_FLOWER = 38;
 	public const BROWN_MUSHROOM = 39;

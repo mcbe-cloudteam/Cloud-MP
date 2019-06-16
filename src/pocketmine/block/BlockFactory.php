@@ -66,6 +66,8 @@ class BlockFactory{
 		self::$blastResistance = new \SplFixedArray(16384);
 
 		/* 새로운 블럭 추가 */
+		self::registerBlock(new Element(Block::UNKNOW_ELEMENT, 0, "???")); /* 36 */
+		
 		self::registerBlock(new HardGlass(253, 0, "Hard Glass"));
 		self::registerBlock(new HardGlassPane(190, 0, "Hard Glass Pane"));
 
@@ -110,12 +112,19 @@ class BlockFactory{
 		self::registerBlock(new JungleButton()); /* 398 */
 		self::registerBlock(new SpruceButton()); /* 399 */
 		
+		self::registerBlock(new AcaciaTrapdoor()); /* 400 */
+		self::registerBlock(new BirchTrapdoor()); /* 401 */
+		self::registerBlock(new DarkOakTrapdoor()); /* 402 */
+		self::registerBlock(new JungleTrapdoor()); /* 403 */
+		self::registerBlock(new SpruceTrapdoor()); /* 404 */
+		
 		self::registerBlock(new AcaciaPressurePlate()); /* 405 */
 		self::registerBlock(new BirchPressurePlate()); /* 406 */
 		self::registerBlock(new DarkOakPressurePlate()); /* 407 */
 		self::registerBlock(new JunglePressurePlate()); /* 408 */
 		self::registerBlock(new SprucePressurePlate()); /* 409 */
-
+		
+		self::registerBlock(new CarvedPumpkin()); /* 410 */
 		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
 		self::registerBlock(new NewBlock(412, 0, "Conduit"));
 		self::registerBlock(new NewBlock(413, 0, "Turtle Egg"));
