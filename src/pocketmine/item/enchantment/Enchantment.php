@@ -66,6 +66,9 @@ class Enchantment{
 	public const RIPTIDE = 30;
 	public const LOYALTY = 31;
 	public const CHANNELING = 32;
+	public const MULTISHOT = 33;
+	public const PIERCING = 34;
+	public const QUICK_CHARGE = 35;
 
 	public const RARITY_COMMON = 10;
 	public const RARITY_UNCOMMON = 5;
@@ -119,25 +122,38 @@ class Enchantment{
 		]));
 		self::registerEnchantment(new Enchantment(self::THORNS, "%enchantment.thorns", self::RARITY_MYTHIC, self::SLOT_TORSO, self::SLOT_HEAD | self::SLOT_LEGS | self::SLOT_FEET, 3));
 		self::registerEnchantment(new Enchantment(self::RESPIRATION, "%enchantment.oxygen", self::RARITY_RARE, self::SLOT_HEAD, self::SLOT_NONE, 3));
-
+		self::registerEnchantment(new Enchantment(self::DEPTH_STRIDER, "%enchantment.depth_strider", self::RARITY_COMMON, self::SLOT_FEET, self::SLOT_NONE, 3));
+		self::registerEnchantment(new Enchantment(self::AQUA_AFFINITY, "%enchantment.aqua_affinity", self::RARITY_COMMON, self::SLOT_HEAD, self::SLOT_NONE, 1));
 		self::registerEnchantment(new SharpnessEnchantment(self::SHARPNESS, "%enchantment.damage.all", self::RARITY_COMMON, self::SLOT_SWORD, self::SLOT_AXE, 5));
-		//TODO: smite, bane of arthropods (these don't make sense now because their applicable mobs don't exist yet)
-
+		//TODO: smite, bane of arthropods (these don't make sense now because their applicable mobs don't exist yet)	
+		self::registerEnchantment(new Enchantment(self::SMITE, "%enchantment.smite", self::RARITY_COMMON, self::SLOT_SWORD, self::SLOT_AXE, 5));
+		self::registerEnchantment(new Enchantment(self::BANE_OF_ARTHROPODS, "%enchantment.band_of_arthropods", self::RARITY_COMMON, self::SLOT_SWORD, self::SLOT_AXE, 5));
 		self::registerEnchantment(new KnockbackEnchantment(self::KNOCKBACK, "%enchantment.knockback", self::RARITY_UNCOMMON, self::SLOT_SWORD, self::SLOT_NONE, 2));
 		self::registerEnchantment(new FireAspectEnchantment(self::FIRE_ASPECT, "%enchantment.fire", self::RARITY_RARE, self::SLOT_SWORD, self::SLOT_NONE, 2));
-
+		self::registerEnchantment(new Enchantment(self::LOOTING, "%enchantment.looting", self::RARITY_COMMON, self::SLOT_SWORD, self::SLOT_NONE, 3));
 		self::registerEnchantment(new Enchantment(self::EFFICIENCY, "%enchantment.digging", self::RARITY_COMMON, self::SLOT_DIG, self::SLOT_SHEARS, 5));
 		self::registerEnchantment(new Enchantment(self::SILK_TOUCH, "%enchantment.untouching", self::RARITY_MYTHIC, self::SLOT_DIG, self::SLOT_SHEARS, 1));
 		self::registerEnchantment(new Enchantment(self::UNBREAKING, "%enchantment.durability", self::RARITY_UNCOMMON, self::SLOT_DIG | self::SLOT_ARMOR | self::SLOT_FISHING_ROD | self::SLOT_BOW, self::SLOT_TOOL | self::SLOT_CARROT_STICK | self::SLOT_ELYTRA, 3));
-
+		self::registerEnchantment(new Enchantment(self::FORTUNE, "%enchantment.fortune", self::RARITY_COMMON, self::SLOT_DIG, self::SLOT_NONE, 3));
 		self::registerEnchantment(new Enchantment(self::POWER, "%enchantment.arrowDamage", self::RARITY_COMMON, self::SLOT_BOW, self::SLOT_NONE, 5));
 		self::registerEnchantment(new Enchantment(self::PUNCH, "%enchantment.arrowKnockback", self::RARITY_RARE, self::SLOT_BOW, self::SLOT_NONE, 2));
 		self::registerEnchantment(new Enchantment(self::FLAME, "%enchantment.arrowFire", self::RARITY_RARE, self::SLOT_BOW, self::SLOT_NONE, 1));
 		self::registerEnchantment(new Enchantment(self::INFINITY, "%enchantment.arrowInfinite", self::RARITY_MYTHIC, self::SLOT_BOW, self::SLOT_NONE, 1));
-
+		self::registerEnchantment(new Enchantment(self::LUCK_OF_THE_SEA, "%enchantment.luck_of_the_sea", self::RARITY_RARE, self::SLOT_FISHING_ROD, self::SLOT_NONE, 3));
+		self::registerEnchantment(new Enchantment(self::LURE, "%enchantment.lure", self::RARITY_RARE, self::SLOT_FISHING_ROD, self::SLOT_NONE, 3));
+		self::registerEnchantment(new Enchantment(self::FROST_WALKER, "%enchantment.frost_walker", self::RARITY_RARE, self::SLOT_FEET, self::SLOT_NONE, 2));
 		self::registerEnchantment(new Enchantment(self::MENDING, "%enchantment.mending", self::RARITY_RARE, self::SLOT_NONE, self::SLOT_ALL, 1));
-
+		self::registerEnchantment(new Enchantment(self::BINDING, "%enchantment.binding", self::RARITY_MYTHIC, self::SLOT_NONE, self::SLOT_ALL, 1));
 		self::registerEnchantment(new Enchantment(self::VANISHING, "%enchantment.curse.vanishing", self::RARITY_MYTHIC, self::SLOT_NONE, self::SLOT_ALL, 1));
+		self::registerEnchantment(new Enchantment(self::IMPALING, "%enchantment.impaling", self::RARITY_MYTHIC, self::SLOT_TRIDENT, self::SLOT_ALL, 5));
+		self::registerEnchantment(new Enchantment(self::RIPTIDE, "%enchantment.riptide", self::RARITY_MYTHIC, self::SLOT_TRIDENT, self::SLOT_NONE, 3));
+		self::registerEnchantment(new Enchantment(self::LOYALTY, "%enchantment.loyalty", self::RARITY_MYTHIC, self::SLOT_TRIDENT, self::SLOT_NONE, 3));
+		self::registerEnchantment(new Enchantment(self::CHANNELING, "%enchantment.channeling", self::RARITY_MYTHIC, self::SLOT_TRIDENT, self::SLOT_NONE, 1));
+		self::registerEnchantment(new Enchantment(self::MULTISHOT, "%enchantment.multishot", self::RARITY_MYTHIC, self::SLOT_ALL, self::SLOT_NONE, 1));
+		self::registerEnchantment(new Enchantment(self::PIERCING, "%enchantment.piercing", self::RARITY_MYTHIC, self::SLOT_ALL, self::SLOT_NONE, 1));
+		self::registerEnchantment(new Enchantment(self::QUICK_CHARGE, "%enchantment.quick_charge", self::RARITY_MYTHIC, self::SLOT_ALL, self::SLOT_NONE, 1));
+		
+		self::registerEnchantment(new Enchantment(36, "%enchantment.36", self::RARITY_MYTHIC, self::SLOT_ALL, self::SLOT_NONE, 1));
 	}
 
 	/**
