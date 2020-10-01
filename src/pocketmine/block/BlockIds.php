@@ -61,7 +61,7 @@ interface BlockIds{
 	public const PISTON = 33;
 	public const PISTONARMCOLLISION = 34, PISTON_ARM_COLLISION = 34;
 	public const WOOL = 35;
-
+	public const UNKNOW_ELEMENT = 36;
 	public const DANDELION = 37, YELLOW_FLOWER = 37;
 	public const POPPY = 38, RED_FLOWER = 38;
 	public const BROWN_MUSHROOM = 39;
@@ -465,8 +465,8 @@ interface BlockIds{
 	public const JUNGLE_WALL_SIGN = 444;
 	public const ACACIA_STANDING_SIGN = 445;
 	public const ACACIA_WALL_SIGN = 446;
-	public const DARKOAK_STANDING_SIGN = 447;
-	public const DARKOAK_WALL_SIGN = 448;
+	public const DARK_OAK_STANDING_SIGN = 447;
+	public const DARK_OAK_WALL_SIGN = 448;
 	public const LECTERN_BLOCK = 449;
 	public const GRINDSTONE_BLOCK = 450;
 	public const BLAST_FURNACE_BLOCK = 451;
@@ -484,6 +484,7 @@ interface BlockIds{
 	public const CAMPFIRE_BLOCK = 464;
 	public const LAVA_CAULDRON = 465;
 	public const JIGSAW = 466;
+	public const WOOD3 = 467;
 	public const COMPOSTER = 468;
 	public const LIT_BLAST_FURNACE = 469;
 

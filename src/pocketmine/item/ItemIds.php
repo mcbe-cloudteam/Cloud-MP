@@ -45,8 +45,8 @@ interface ItemIds extends BlockIds{
 	public const BLAST_FURNACE_I = -196;
 	public const GRINDSTONE_I = -195;
 	public const LECTERN_I = -194;
-	public const DARKOAK_WALL_SIGN_I = -193;
-	public const DARKOAK_STANDING_SIGN_I = -192;
+	public const DARK_OAK_WALL_SIGN_I = -193;
+	public const DARK_OAK_STANDING_SIGN_I = -192;
 	public const ACACIA_WALL_SIGN_I = -191;
 	public const ACACIA_STANDING_SIGN_I = -190;
 	public const JUNGLE_WALL_SIGN_I = -189;
@@ -435,6 +435,7 @@ interface ItemIds extends BlockIds{
 	public const BLEACH = 451;
 	public const IRON_NUGGET = 452;
 	public const ICE_BOMB = 453;
+	
 	public const TRIDENT = 455;
 	public const BEETROOT = 457;
 	public const BEETROOT_SEEDS = 458;
@@ -455,7 +456,7 @@ interface ItemIds extends BlockIds{
 	public const BIRCH_SIGN = 473;
 	public const JUNGLE_SIGN = 474;
 	public const ACACIA_SIGN = 475;
-	public const DARKOAK_SIGN = 476;
+	public const DARK_OAK_SIGN = 476;
 	public const SWEET_BERRIES = 477;
 	public const COMPOUND = 499;
 	public const RECORD_13 = 500;

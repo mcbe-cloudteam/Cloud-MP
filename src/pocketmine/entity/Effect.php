@@ -60,6 +60,9 @@ class Effect{
 	public const LEVITATION = 24; //TODO
 	public const FATAL_POISON = 25;
 	public const CONDUIT_POWER = 26;
+	public const SLOW_FALLIN = 27;
+	public const BAD_OMEN = 28;
+	public const VILLAGE_HERO = 29;
 
 	/** @var Effect[] */
 	protected static $effects = [];
@@ -91,6 +94,9 @@ class Effect{
 		self::registerEffect(new Effect(Effect::LEVITATION, "%potion.levitation", new Color(0xce, 0xff, 0xff)));
 		self::registerEffect(new Effect(Effect::FATAL_POISON, "%potion.poison", new Color(0x4e, 0x93, 0x31), true));
 		self::registerEffect(new Effect(Effect::CONDUIT_POWER, "%potion.conduitPower", new Color(0x1d, 0xc2, 0xd1)));
+		self::registerEffect(new Effect(Effect::SLOW_FALLIN, "%potion.slowFallin", new Color(0x45, 0x52, 0x24)));
+		self::registerEffect(new Effect(Effect::BAD_OMEN, "%potion.badOmen", new Color(0x24, 0x42, 0x44)));
+		self::registerEffect(new Effect(Effect::VILLAGE_HERO, "%potion.villageHero", new Color(0xd4, 0x35, 0x14)));
 	}
 
 	/**

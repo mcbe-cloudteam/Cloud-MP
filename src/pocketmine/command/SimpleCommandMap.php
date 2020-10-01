@@ -108,7 +108,6 @@ class SimpleCommandMap implements CommandMap{
 			new EffectCommand("effect"),
 			new EnchantCommand("enchant"),
 			new GamemodeCommand("gamemode"),
-			new GamemodeCommand("gm"),
 			new GarbageCollectorCommand("gc"),
 			new GiveCommand("give"),
 			new HelpCommand("help"),
@@ -140,7 +139,6 @@ class SimpleCommandMap implements CommandMap{
 			new VersionCommand("version"),
 			new StoreCommand("store"),
 			new ClearCommand("clear"),
-			new PlaySoundCommand("ps"),
 			new PlaySoundCommand("playsound"),
 			new WorldCommand("world"),
 			new WhitelistCommand("whitelist")

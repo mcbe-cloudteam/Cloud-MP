@@ -66,6 +66,8 @@ class BlockFactory{
 		self::$blastResistance = new \SplFixedArray(16384);
 
 		/* 새로운 블럭 추가 */
+		self::registerBlock(new Element(Block::UNKNOW_ELEMENT, 0, "???")); /* 36 */
+		
 		self::registerBlock(new HardGlass(253, 0, "Hard Glass"));
 		self::registerBlock(new HardGlassPane(190, 0, "Hard Glass Pane"));
 
@@ -81,48 +83,104 @@ class BlockFactory{
 		self::registerBlock(new HardStainedGlass(254, 0, "Hard Stained Glass"));
 		self::registerBlock(new HardStainedGlassPane(191, 0, "Hard Stained Glass Pane"));
 
-		self::registerBlock(new NewBlock(266, 0, "Blue Ice"));
-		self::registerBlock(new NewBlock(267, 0, "H"));
-
-		self::registerBlock(new Kelp());
-		self::registerBlock(new NewBlock(392, 0, "CORAL_FAN_HANG3"));
-		self::registerBlock(new NewBlock(391, 0, "CORAL_FAN_HANG2"));
-		self::registerBlock(new NewBlock(390, 0, "CORAL_FAN_HANG1"));
-		self::registerBlock(new NewBlock(389, 0, "CORAL_FAN_HANG"));
-		self::registerBlock(new NewBlock(388, 0, "CORAL_FAN"));
-		self::registerBlock(new NewBlock(387, 0, "CORAL_BLOCK"));
-		self::registerBlock(new NewBlock(386, 0, "CORAL"));
-		self::registerBlock(new NewBlock(385, 0, "SEAGRASS"));
-		self::registerBlock(new NewBlock(411, 0, "SEA_PICKLE"));
-		self::registerBlock(new NewBlock(412, 0, "CONDUIT"));
-		self::registerBlock(new NewBlock(413, 0, "TURTLE_EGG"));
-		self::registerBlock(new NewBlock(418, 0, "BAMBOO"));
-		self::registerBlock(new NewBlock(419, 0, "BAMBOO_SAPLING"));
-		self::registerBlock(new NewBlock(420, 0, "SCAFFOLDING"));
-
-				self::registerBlock(new NewBlock(461, 0, "BELL_BLOCK"));
-						self::registerBlock(new NewBlock(464, 0, "CAMPFIRE_BLOCK"));
-										self::registerBlock(new NewBlock(455, 0, "CARTOGRAPHY_TABLE_BLOCK"));
-										self::registerBlock(new NewBlock(456, 0, "FLETCHING_TABLE_BLOCK"));
-										self::registerBlock(new NewBlock(457, 0, "SMITHING_TABLE_BLOCK"));
-										self::registerBlock(new NewBlock(451, 0, "BLAST_FURNACE_BLOCK"));
-										//self::registerBlock(new NewBlock(452, 0, "STONECUTTER_BLOCK"));
-										self::registerBlock(new NewBlock(453, 0, "SMOKER_BLOCK"));
-										self::registerBlock(new NewBlock(450, 0, "GRINDSTONE_BLOCK"));
-										self::registerBlock(new NewBlock(462, 0, "SWEET_BERRY_BUSH"));
-
-
-		self::registerBlock(new Barrel()); /* 458 */
-		self::registerBlock(new Loom()); /* 459 */
-
+		/* -단위 아이템 추가 */
+		self::registerBlock(new PrismarineStairs()); /* 257 */
+	    self::registerBlock(new DarkPrismarineStairs()); /* 258 */
+		self::registerBlock(new PrismarineBricksStairs()); /* 259 */
 		self::registerBlock(new NewBlock(260, 0, "Stripped Spruce Log"));
 		self::registerBlock(new NewBlock(261, 0, "Stripped Birch Log"));
 		self::registerBlock(new NewBlock(262, 0, "Stripped Jungle Log"));
 		self::registerBlock(new NewBlock(263, 0, "Stripped Acaica Log"));
 		self::registerBlock(new NewBlock(264, 0, "Stripped Dark Oak Log"));
 		self::registerBlock(new NewBlock(265, 0, "Stripped Oak Log"));
+		self::registerBlock(new BlueIce()); /* 266 */
+		self::registerBlock(new NewBlock(267, 0, "H"));
 
+		self::registerBlock(new NewBlock(385, 0, "Seagrass"));
+		self::registerBlock(new NewBlock(386, 0, "Coral"));
+		self::registerBlock(new NewBlock(387, 0, "Coral Block"));
+		self::registerBlock(new NewBlock(388, 0, "Coral Fan"));
+		self::registerBlock(new NewBlock(389, 0, "Coral Fan Hang"));
+		self::registerBlock(new NewBlock(390, 0, "Coral Fan Hang 1"));
+		self::registerBlock(new NewBlock(391, 0, "Coral Fan Hang 2"));
+		self::registerBlock(new NewBlock(392, 0, "Coral Fan Hong 3"));
+		self::registerBlock(new Kelp()); /* 393 */
+		
+		self::registerBlock(new AcaciaButton()); /* 395 */
+		self::registerBlock(new BirchButton()); /* 396 */
+		self::registerBlock(new DarkOakButton()); /* 397 */
+		self::registerBlock(new JungleButton()); /* 398 */
+		self::registerBlock(new SpruceButton()); /* 399 */
+		
+		self::registerBlock(new AcaciaTrapdoor()); /* 400 */
+		self::registerBlock(new BirchTrapdoor()); /* 401 */
+		self::registerBlock(new DarkOakTrapdoor()); /* 402 */
+		self::registerBlock(new JungleTrapdoor()); /* 403 */
+		self::registerBlock(new SpruceTrapdoor()); /* 404 */
+		
+		self::registerBlock(new AcaciaPressurePlate()); /* 405 */
+		self::registerBlock(new BirchPressurePlate()); /* 406 */
+		self::registerBlock(new DarkOakPressurePlate()); /* 407 */
+		self::registerBlock(new JunglePressurePlate()); /* 408 */
+		self::registerBlock(new SprucePressurePlate()); /* 409 */
+		
+		self::registerBlock(new CarvedPumpkin()); /* 410 */
+		self::registerBlock(new NewBlock(411, 0, "Sea Pickle"));
+		self::registerBlock(new NewBlock(412, 0, "Conduit"));
+		self::registerBlock(new NewBlock(413, 0, "Turtle Egg"));
+		
+		self::registerBlock(new Barrier()); /* 416 */
+		self::registerBlock(new StoneSlab3()); /* 417 - 0~15 */
+		self::registerBlock(new NewBlock(418, 0, "Bamboo"));
+		self::registerBlock(new NewBlock(419, 0, "Bamboo Sapling"));
+		self::registerBlock(new NewBlock(420, 0, "Scaffolding"));
+		self::registerBlock(new StoneSlab4()); /* 421 - 0~15 */
+		self::registerBlock(new DoubleStoneSlab3()); /* 422 - 0~15 */
+		self::registerBlock(new DoubleStoneSlab4()); /* 423 - 0~15 */
+		self::registerBlock(new NewBlock(424, 0, "Granite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(425, 0, "Diorite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(426, 0, "Andesite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(427, 0, "Polished Granite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(428, 0, "Polished Diorite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(429, 0, "Polished Andesite Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(430, 0, "Mossy Stone Brick Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(431, 0, "Smooth Red SandStone Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(432, 0, "Smooth SandStone Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(433, 0, "End Brick Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(434, 0, "Mossy CobbleStone Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(435, 0, "Normal Stone Stairs")); /* 0~7 */
+		self::registerBlock(new SpruceStandingSign()); /* 436 */
+		self::registerBlock(new SpruceWallSign()); /* 437 */
+		self::registerBlock(new NewBlock(438, 0, "Smooth Stone"));
+		self::registerBlock(new NewBlock(439, 0, "Red Nether Brick Stairs")); /* 0~7 */
+		self::registerBlock(new NewBlock(440, 0, "Smooth Quartz Stairs")); /* 0~7 */
+		self::registerBlock(new BirchStandingSign()); /* 441 */
+		self::registerBlock(new BirchWallSign()); /* 442 */
+		self::registerBlock(new JungleStandingSign()); /* 443 */
+		self::registerBlock(new JungleWallSign()); /* 444 */
+		self::registerBlock(new AcaciaStandingSign()); /* 445 */
+		self::registerBlock(new AcaciaWallSign()); /* 446 */
+		self::registerBlock(new DarkOakStandingSign()); /* 447 */
+		self::registerBlock(new DarkOakWallSign()); /* 448 */
 
+		self::registerBlock(new NewBlock(450, 0, "Grindstone"));
+		self::registerBlock(new NewBlock(451, 0, "Blast Furnace"));
+		//self::registerBlock(new NewBlock(452, 0, "Stonecutter"));
+		self::registerBlock(new NewBlock(453, 0, "Smoker"));
+
+		self::registerBlock(new NewBlock(455, 0, "Cartography Table"));
+		self::registerBlock(new NewBlock(456, 0, "Fletching Table"));
+		self::registerBlock(new NewBlock(457, 0, "Smithing Table"));
+		self::registerBlock(new Barrel()); /* 458 */
+		self::registerBlock(new Loom()); /* 459 */
+
+		self::registerBlock(new NewBlock(461, 0, "Bell"));
+		self::registerBlock(new NewBlock(462, 0, "Sweet Berry Bush"));
+		self::registerBlock(new NewBlock(464, 0, "Campfire"));
+		
+		self::registerBlock(new Wood3()); /* 467 */
+		self::registerBlock(new Composter()); /* 468 */
+		self::registerBlock(new NewBlock(469, 0, "Lit Blast Furnace"));
 		/* 새로운 블럭 추가 */
 
 		self::registerBlock(new Air());
